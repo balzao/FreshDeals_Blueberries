@@ -1,0 +1,23 @@
+.breadcrumb > li {
+    display: inline;
+}
+
+.breadcrumb li.location+li.location::before {
+    color: red;
+    content: ">>";
+}
+
+.attribute a {
+    color: red;
+    text-decoration-line: none;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(171, 236, 236);  
+}
+
+.location a {
+    text-decoration-line: none;
+}
+
